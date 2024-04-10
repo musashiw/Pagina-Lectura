@@ -1,0 +1,29 @@
+body{
+    background-image:url(Fotos/imagen-fondo.jpg);
+}
+
+nav {
+    padding-top: 20px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.inicio{
+    height: 1000px;
+}
+
+.EC{
+    background-color: red;
+    width: 90%;
+    margin:auto;
+    height: 1000px;
+}
+
+.texto1{
+    text-align: center;
+    background-color: aliceblue;
+    width: 50%;
+    margin: auto;
+    border: 2px solid black;
+}
