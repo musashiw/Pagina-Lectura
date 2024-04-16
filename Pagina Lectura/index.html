@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comics y Mangas</title>
@@ -8,50 +9,92 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-
 <body>
-    <!--Comienzo del nav-->
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" >
-          <div class="container-fluid"  >
-            <a class="navbar-brand" href="#">Inicio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Biblioteca</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Comics/Mangas
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Comics</a></li>
-                    <li><a class="dropdown-item" href="#">Mangas</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Otros</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </div>
-        </nav>
-    <!--Fin del nav-->
 
-    <!--Espacio para comics-->
-    <div class="EC">
-      <div>
-        <h1 class="texto1">Publicaciones y Reseñas</h1>
+  <div class="container">
+
+    <div class="row">
+      <img src="Fotos/logo.jpg" alt="">
+    </div>
+
+    <div class="row" style="background-color: tomato;">
+      <div clas="col"> 
+            <!--INICIO DEL NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!--FIN NAV-->
+      </div>
+    </div>
+
+    <div class="row" style="background-color: aquamarine;">
+      <div class="col-1">
+        <a href="http://127.0.0.1:5500/mangas.html"> PINCHAR ACA </a>
       </div>
 
-    </div>
-    
+      <div class="col-11" style="background-color: black;">
 
-    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
-</body>
+        <div class="row"> <!-- ROW 1° FILA -->
+
+        <div class="col" style="background-color: orange;">
+          <img src="Fotos/berserk tomo 1.png" alt="" style="width: 100%;">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nostrum sapiente quos vero sed nihil reiciendis similique omnis, deleniti quae ducimus aspernatur veniam facilis fugiat voluptate obcaecati sint officiis? Numquam?</p>
+        </div>
+
+        <div class="col" style="background-color: rgb(248, 49, 13);">
+          <img src="Fotos/vagabond tomo 1.png.jpg" alt="" style="width: 100%;">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus sint quaerat blanditiis eum earum iure distinctio ad amet, cum sit dolorum veniam natus quae laudantium minima facere delectus ipsa deserunt.</p>
+        </div>
+        <div class="col" style="background-color: red;">
+          <img src="Fotos/vindland tomo 1.jpg" alt="" style="width: 100%;">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia incidunt ex beatae nisi cumque cupiditate reiciendis earum consequuntur nostrum eaque vel, tempora alias libero ad at! Non quo similique mollitia!</p>
+        </div>
+
+      </div> <!-- TERMINO ROW 1° FILA -->
+
+      <!--FOOTER-->
+      <div class="row" style="background-color: blueviolet;">
+        <div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint tempore incidunt minima quia pariatur itaque voluptate, dignissimos iure soluta officiis expedita animi! Eum corporis voluptas, dolorum veniam corrupti commodi labore.</p>
+        </div>
+      </div>
+      <!--TERMINO DEL FOOTER-->
+
+      </div> <!-- TERMINO DEL DIV DEL CONTENIDO PRINCIPAL-->
+
+  </div> <!-- DIV TERMINO DEL CONTAINER-->
+
 </html>
